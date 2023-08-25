@@ -1,37 +1,62 @@
-:root{
-    font-family: 'Inter', sans-serif;
-font-family: 'Roboto', sans-serif;
-}
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-}
-body{
-background-color: black;
-display: flex;
-height: 100vh;
-width: 100vw;
-justify-content: center;
-align-items: center;
-}
-
-.card{
-    background-color: white;
-    width: 350px;
+  }
+  body {
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+  }
+  .card {
+    background-color: #ffff;
+    width: 353px;
     border-radius: 30px;
-    overflow: hidden;
-    padding: 36px;
-}
-.detail h2{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  .img-profile{
+    margin: 0 auto;
+    position: relative;
+    top: -70px;
+    border-radius: 50%;
+    border: 5px solid white;
+  }
+  .details h2 {
+    margin-top: -20%;
     font-weight: 700;
     font-size: 18px;
-}
-.detail p{
+    text-align: center;
+  }
+  .details p {
+    margin-top: 4%;
     font-weight: 400;
     font-size: 12px;
-}
-.seccion-button{
-    font-weight: 400;
-}
+    text-align: center;
+  }
+
+  .section-button-b1 {
+    margin-top: 5%;
+    background: #046BA5;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    width: 244px;
+    height: 48px;
+    cursor: pointer;
+
+  }
+  .section-button-b2 {
+    background: #046BA533;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+  }
